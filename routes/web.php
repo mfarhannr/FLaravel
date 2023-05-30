@@ -51,4 +51,3 @@ Route::get("/redirect/from", [App\Http\Controllers\bazmaController::class, 'redi
 
 Route::get("/redirect/to/named", [App\Http\Controllers\bazmaController::class, 'redirectToNamedRoute'])->name("redirect.to");
 Route::get("/redirect/from/named", [App\Http\Controllers\bazmaController::class, 'redirectFromNamedRoute']);
-/redirect/from/named
